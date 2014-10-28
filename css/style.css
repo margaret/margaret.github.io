@@ -17,6 +17,13 @@ h3 {
 	text-align: center;
 }
 
+ul,ol{
+	padding-left: 0;
+}
+
+.circle-select ul {
+	padding-left: 0;
+}
 
 .col-md-6 {
 	text-align: center;
