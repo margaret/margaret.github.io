@@ -58,7 +58,13 @@
             <h3><a href="http://xkcd.com/114/">CompLing</a></h3>
           </li>
           <li class="circle-btn">
-            <h3>Other</h3>
+            <h3>Fencing</h3>
+          </li>
+          <li class="circle-btn">
+            <h3>Biology</h3>
+          </li>
+          <li class="circle-btn">
+            <h3>Brainfuck</h3>
           </li>
         </ul>
       </div>
@@ -70,7 +76,7 @@
     <div class="articles container">
     
         
-        <div class="article row">
+        <div class="article row" id="Twitter">
           <div class="col-md-8 col-md-offset-2 text-center">
             <h3>Analyzing Kenya's electrical grid</h3>
             <h4>Summer 2013 - Technology and Infrastructure for Emerging Regions Lab (TIER) - UC Berkeley</h4>
@@ -86,14 +92,14 @@
           </div>
         </div>
 
-        <div class="article active row">
+        <div class="article active row" id="CompLing">
           <div class="col-md-8 col-md-offset-2">
             <h3>Finding semantic similarity in the Google N-grams dataset</h3>
-            <h4>Summer 2014 (current) - <a href="http://lclab.berkeley.edu/index.php">Language and Cognition Lab</a> - UC Berkeley</h4>
+            <h4>Summer 2014 - <a href="http://lclab.berkeley.edu/index.php">Language and Cognition Lab</a> - UC Berkeley</h4>
           </div>
         </div>
 
-        <div class="article row">
+        <div class="article row" id="Fencing">
           <div class="col-md-8 col-md-offset-2 text-center">
             <h3>Fencing Website</h3>
             <p>Completely remade the UC Berkeley Fencing Club's website for the Fall 2014 semester. First time doing any sort of web dev (better late than never), so I decided that using Twitter Bootstrap and Wordpress would be the best way to quickly make a modern-looking and responsive site. The old website used a custom template from an unknown source held together with some spaghetti PHP, cutenews for annoucnements, and jalbum for photos. Although wordpress is a lot heavier than cutenews, it seems to be a lot better supported, and the admin interface more accessible to non-technical people. Likewise I changed the photo hosting to Flickr, which allows anyone on the team to easily upload photos, and slideshows can be easily embedded. I also uploaded the teaching videos to YouTube and converted the shorter ones into gifs so that they are more accessible. </p>
@@ -105,14 +111,27 @@
             <h4>Mobile</h4>
             <div style="text-align: center;"><img src="imgs/mobilewebsite.png" width="300px"></div>
 
+          </div>
+        </div>
+
+        <div class="article row" id="Biology">
+          <div class="col-md-8 col-md-offset-2 text-center">
             <h3>Bioinformatics</h3>
+            <p>Wrote a good chunk of the pipeline for a a study on <a href="http://www.pnas.org/content/110/43/17409.full">the Neofunctionalization of young duplicate genes in Drosophila</a> in the Bachtrog Lab. It mostly involved regex and plotting things. </p>
 
             <h3>Molecular Biology</h3>
-            <p>Once upon a time, I was an Integrative Biology major, and decided that I should try benchwork to be more well-rounded. I worked in the Stillman Lab in Fall 2012, doing RNA purification for a project on the effect of increasing temperatures on insects in local streams. I followed a phenol-chloroform extraction protocol, which invovled a lot of micropipetting and using what was basically a miniature blender to liquefy the insect </p>
+            <p>Once upon a time, I was an Integrative Biology major, and decided that I should try benchwork to be more well-rounded. I worked in the Stillman Lab in Fall 2012, doing RNA purification for a project on the effect of increasing temperatures on insects in local streams. I followed a phenol-chloroform extraction protocol, which invovled a lot of micropipetting and cutting up flash-frozen caddisflies with tiny scissors and pureéing their body parts.</p>
 
           </div>
         </div>
 
+        <div class="article row" id="Brainfuck">
+            <div class="col-md-8 col-md-offset-2">
+              <h3>Brainfuck Interpreter</h3>
+              <p>Once I procrastinated on my Compilers homework by writing a Brainfuck interpreter in Python. While Brainfuck is notoriously difficult to program in, it was actually pretty easy to implement, considering that there are only 8 commands. </p>
+              <p><a href="https://github.com/margaret/brainfuck">Code here.</a></p>
+            </div>
+        </div>
 
     </div>
 
