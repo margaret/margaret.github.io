@@ -13,7 +13,8 @@ POST_DIR = 'posts'
 app = Flask(__name__)
 flatpages = FlatPages(app)
 freezer = Freezer(app)
-app.config.from_object(__name__)
+# app.config.from_object(__name__)
+app.config.from_pyfile('settings.py')
 
 blog_home = '/posts'
 
