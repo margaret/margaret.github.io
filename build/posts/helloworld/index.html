@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename="css/bootstrap.css") }}>
-    <link rel="stylesheet" type="text/css" media="screen" href={{ url_for('static', filename="css/style.css") }}>
+    <link rel="stylesheet" type="text/css" href=/static/css/bootstrap.css>
+    <link rel="stylesheet" type="text/css" media="screen" href=/static/css/style.css>
 
 
     <title>Margaret Sy</title>
@@ -28,13 +28,13 @@
 
         <div class="navbar-collapse collapse" id="navigationbar">
           <ul class="nav navbar-nav pull-left">
-            <li><a href={{ url_for('index') }}>Home</a></li>
-            <li><a href={{ url_for('posts') }}>Blog</a></li>
+            <li><a href=/>Home</a></li>
+            <li><a href=/posts/>Blog</a></li>
           </ul>
 
           <ul class="nav navbar-nav pull-right">
-            <li><a href={{ url_for('projects') }}>Projects</a></li>
-            <li><a href={{ url_for('misc') }}>Misc</a></li>
+            <li><a href=/projects>Projects</a></li>
+            <li><a href=/misc>Misc</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -45,12 +45,19 @@
 
     <div class="jumbotron">
       <div class="container">
-	{% block content %}{% endblock %}
+	
+<h1><a href=/posts/>Blog</a></h1>
+<h2>Hello World</h2>
+<p>Restructured the site from plain html/css/js to use the <a href="http://flask.pocoo.org/">Flask framework</a> and add a blog for posts written in markdown. If you can see this, it worked.  </p>
+<p>Stole the boilerplate code for the blog posts from <a href="https://www.ocf.berkeley.edu/~rkwan/">Ronald Kwan</a>, who in turn based it on James Harding's <a href="http://www.jamesharding.ca/posts/simple-static-markdown-blog-in-flask/">Blog with Flask</a>.</p>
+Hello World
+2015-03-18 18:30
+
       </div>
     </div> 
 
 
-    {% block pages %}{% endblock %}
+    
 
 
 
@@ -60,7 +67,7 @@
 
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src={{ url_for('static', filename="js/bootstrap.min.js") }}></script>
-    <script src={{ url_for('static', filename="js/app.js") }}></script>
+    <script src=/static/js/bootstrap.min.js></script>
+    <script src=/static/js/app.js></script>
   </body>
 </html>

@@ -1,5 +1,51 @@
-{% extends "base.html" %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href=/static/css/bootstrap.css>
+    <link rel="stylesheet" type="text/css" media="screen" href=/static/css/style.css>
+
+
+    <title>Margaret Sy</title>
+
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid" id="navfluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+            <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navigationbar">
+          <ul class="nav navbar-nav pull-left">
+            <li><a href=/>Home</a></li>
+            <li><a href=/posts/>Blog</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav pull-right">
+            <li><a href=/projects>Projects</a></li>
+            <li><a href=/misc>Misc</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav> 
+
+
+
+
+    <div class="jumbotron">
+      <div class="container">
+	
 <h2>Margaret Sy</h2>
 <h1>Other things</h1>
 </div>
@@ -39,7 +85,7 @@
 
       <!--<img src="imgs/margaret-fencing.jpg" width=66%>-->
 
-      <img src={{ url_for('static', filename="imgs/fencing_group.jpg") }} width=80%/>
+      <img src=/static/imgs/fencing_group.jpg width=80%/>
 
       <!--<img src="imgs/fencing-davis-2014.jpg" width=66%/>-->
 
@@ -88,8 +134,26 @@
       <p>I highly recommend taking the class if you're interested in learning the full animation pipeline! Just make sure you have enough time for it because it's a lot of work.</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/yYx-v687Ol0?rel=0" frameborder="0" allowfullscreen></iframe>
       <p>Created using the amazing and frustrating Autodesk Maya.</p>
-      <img src={{ url_for('static', filename="imgs/ucbugg1.jpg") }} width="256px">
-      <img src={{ url_for('static', filename="imgs/ucbugg2.jpg") }} width="256px">
-      <img src={{ url_for('static', filename="imgs/ucbugg3.jpg") }} width="256px">
+      <img src=/static/imgs/ucbugg1.jpg width="256px">
+      <img src=/static/imgs/ucbugg2.jpg width="256px">
+      <img src=/static/imgs/ucbugg3.jpg width="256px">
     </div>
-{% endblock %}
+
+      </div>
+    </div> 
+
+
+    
+
+
+
+
+
+    <div id="footer"></div> 
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src=/static/js/bootstrap.min.js></script>
+    <script src=/static/js/app.js></script>
+  </body>
+</html>
