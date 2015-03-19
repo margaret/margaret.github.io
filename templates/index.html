@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Margaret Sy</h1>
+</div>
+</div>
+
+<div class="row circle-nav">
+  <div class="col-md-6 col-md-offset-3">
+    <ul class="circle-select">
+      <li class="circle-btn">
+        <h3>Contact</h3>
+      </li>
+      <li class="circle-btn active-circle">
+        <h3>Welcome</h3>
+      </li>
+      <li class="circle-btn">
+        <h3>Resumé</h3>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="articles container">
+
+  <div class="article row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <p>Email: margaretsy1016 [at] gmail [dot] com</p>
+      <p><a href="https://www.facebook.com/margaret.s.sy">Facebook</a></p>
+      <p><a href="https://www.linkedin.com/in/margaretsy">LinkedIn</a> </p>
+      <p><a href="https://github.com/margaret">GitHub</a> A few things.</p>
+      <div style="text-align: center;"><img src="http://ocf.berkeley.edu/~marsy/site/imgs/octopus.png" style="width:250px"></div>
+    </div>
+  </div>
+
+  <div class="article active row">
+    <div class="col-md-8 col-xs-12 col-md-offset-2">
+      <h3>Tl;dr</h3>
+      <p>I am a fourth year undergraduate student studying Computer Science at UC Berkeley. I'm a general science and science education enthusiast, and hope to have a career in data engineering.</p>
+      <p>I also think <a href={{ url_for('misc') }}>fx makeup</a> is pretty cool.</p>
+    </div>
+  </div>
+
+  <div class="article row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <p><a href={{ url_for('static', filename="files/Resume_Margaret_Sy_Web.pdf") }}>Resumé</a></p>
+      <p>For more details on the projects, see the <a href={{ url_for('projects') }}>Projects</a> page.</p>
+      <br>
+      <img src={{ url_for('static', filename="imgs/koi.png") }} width="250px">
+    </div>
+  </div>
+{% endblock %}
