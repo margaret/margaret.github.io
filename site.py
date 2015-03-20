@@ -34,11 +34,11 @@ def post(name):
     post = flatpages.get_or_404(path)
     return render_template('post.html', post=post)
 
-@app.route("/projects")
+@app.route("/projects.html")
 def projects():
     return render_template('projects.html')
 
-@app.route("/misc")
+@app.route("/misc.html")
 def misc():
     return render_template('misc.html')
 
