@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href=/static/css/bootstrap.css>
+    <link rel="stylesheet" type="text/css" media="screen" href=/static/css/style.css>
+
+
+    <title>Margaret Sy</title>
+
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid" id="navfluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+            <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navigationbar">
+          <ul class="nav navbar-nav pull-left">
+            <li><a href=/>Home</a></li>
+            <li><a href=/posts/>Blog</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav pull-right">
+            <li><a href=/projects>Projects</a></li>
+            <li><a href=/misc>Misc</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav> 
+
+
+
+
+    <div class="jumbotron">
+      <div class="container">
+	
+<h2>Margaret Sy</h2>
+<h1>Other things</h1>
+</div>
+</div>
+
+
+<div class="row circle-nav">
+  <div class="col-md-6 col-md-offset-3">
+    <ul class="circle-select">
+      <li class="circle-btn">
+        <h3>Fencing</h3>
+      </li>
+      <li class="circle-btn active-circle">
+        <h3>Makeup</h3>
+      </li>
+      <li class="circle-btn">
+        <h3>BMT</h3>
+      </li>
+      <li class="circle-btn">
+        <h3>Berkeley</h3>
+      </li>
+      <li class="circle-btn">
+        <h3>Misc</h3>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="articles container">
+
+
+  <div class="article row" id="fencing">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <p>I fence <a href="http://en.wikipedia.org/wiki/Foil_%28fencing%29">foil</a> for the UC Berkeley fencing club. I am also the secretary and webmaster (I gave the our <a href="http://fencing.berkeley.edu">website</a> a much-needed overhaul). If you have any questions about the club or <a href="http://decal.org">DeCal</a>, feel free to ask me :D</p>
+      <!--To do: insert actual image galleries for anything requiring photos-->
+      <!--<img src="imgs/armed-bears.jpg" width=66%>-->
+
+      <!--<img src="imgs/margaret-fencing.jpg" width=66%>-->
+
+      <img src=/static/imgs/fencing_group.jpg width=80%/>
+
+      <!--<img src="imgs/fencing-davis-2014.jpg" width=66%/>-->
+
+    </div>
+  </div>
+
+  <div class="article active row">
+    <div class="col-md-8 col-md-offset-2">
+      <p>I have been doing SFX makeup as a hobby for about a year. If you're in the Berkeley area and would like me to do your beauty makeup, SFX makeup, or face paint for an event, <a href="mailto:margaretsy1016@gmail.com">send me a message</a>!</p>
+      <p>Follow me on <a href="http://pygoscelis.tumblr.com">Tumblr</a> to see my work!</p>
+      <h4>Links</h4>
+      <p>Turns out that you can learn pretty much anything from YouTube. Here are some SFX and face painting channels that I've found helpful, in no particular order.</p>
+      <ul style="padding-left: 10px">
+        <li><a href="https://www.youtube.com/user/goldiestarling">GoldieStarling</a> </li>
+        <li><a href="https://www.youtube.com/user/iwanted2c1video/">iwanted2c2video</a> </li>
+        <li><a href="https://www.youtube.com/user/petrilude/">Petrilude</a> </li>
+        <li><a href="https://www.youtube.com/user/MadeYewLook/">MadeYewLook</a> </li>
+        <li><a href="https://www.youtube.com/user/dope2111">Promise Phan</a> </li>
+      </ul>
+      <p><a href="https://www.reddit.com/r/sfx">/r/sfx</a> is also a helpful resource. <a href="https://www.reddit.com/r/makeupaddiction">/r/makeupaddiction</a> has more users but there's a lot more stuff to sift through. </p>
+      <div style='position: relative; padding-bottom: 81%; height: 0; overflow: hidden;'><iframe id='iframe' src='http://flickrit.com/slideshowholder.php?height=80&size=big&setId=72157648510622614&thumbnails=0&transition=0&layoutType=responsive&sort=0' scrolling='no' frameborder='0'style='width:100%; height:100%; position: absolute; top:0; left:0;' ></iframe></div>
+    </div>
+  </div>
+
+  <div class="article row" id="BMT">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>Berkeley Math Tournament</h3>
+      <p>"The Berkeley Math Tournament Group hosts and organizes mathematical contests for middle and high school students. In organizing these tournaments, the team strives to encourage mathematical exploration and understanding by introducing concepts not covered in the typical pre-college curricula to students with high mathematical aptitude and interest. Each contest emphasizes collaboration between team members, while still allowing individuals to prove their own ability."</p>
+      <p>I got lured in as a day volunteer one semester by promises of free food and milk tea, and I enjoyed it so much I stayed. It's been challenging and fulfilling organizing such a large event. I'm currently on staff as the head of logistics.</p>
+      <p>See <a href="http://bmt.berkeley.edu">See bmt.berkeley.edu</a> for more.</p>
+    </div>
+  </div>
+
+  <div class="article row" id="Berkeley">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>UC Berkeley</h3>
+      <p>Yeah stuff about Berkeley here.</p>
+    </div>
+  </div>
+
+  <div class="article row" id="Misc">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>Other stuff</h3>
+      <h4>UCBUGG</h4>
+      <p>I made an animated short in the Spring 2013 <a href="http://www.ucbugg.com/">UCBUGG</a> decal. I worked with Michael Ho, Nathan Connor, Stephanie Cai, <-- (major props to these three) Jin Kim, and Katherine Xu. I worked on storyboarding and models. </p>
+      <p>I highly recommend taking the class if you're interested in learning the full animation pipeline! Just make sure you have enough time for it because it's a lot of work.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/yYx-v687Ol0?rel=0" frameborder="0" allowfullscreen></iframe>
+      <p>Created using the amazing and frustrating Autodesk Maya.</p>
+      <img src=/static/imgs/ucbugg1.jpg width="256px">
+      <img src=/static/imgs/ucbugg2.jpg width="256px">
+      <img src=/static/imgs/ucbugg3.jpg width="256px">
+    </div>
+
+      </div>
+    </div> 
+
+
+    
+
+
+
+
+
+    <div id="footer"></div> 
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src=/static/js/bootstrap.min.js></script>
+    <script src=/static/js/app.js></script>
+  </body>
+</html>
