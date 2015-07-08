@@ -40,13 +40,13 @@ ul,ol{
 	padding-left: 0px;
 }
 
-.circle-btn li {
+.circle-btn li, .circle-btn-play li {
 	display: inline-block;
 	text-align: center;
 	padding: 0px;
 }
 
-.circle-btn {
+.circle-btn, .circle-btn-play {
 	background-color: #69D2E7;
 	display: inline-block;
 	width: 100px;
@@ -62,30 +62,30 @@ ul,ol{
 	vertical-align: top;
 }
 
-.circle-btn h3 {
+.circle-btn h3, .circle-btn-play h3 {
 	font-size: 0.5em;
 }
 
-.circle-btn a {
+.circle-btn a, .circle-btn-play a {
 	text-decoration: none;
 	color: white;
 }
 
-.circle-btn p {
+.circle-btn p, .circle-btn-play p {
 	padding-top: 40px;
 	font-size: 0.5em; 
 	color: gray;
 }
 
-.circle-btn:hover {
+.circle-btn:hover, .circle-btn-play:hover {
 	background-color: #1d6991;
 }
 
-.circle-btn.active-circle:hover {
+.circle-btn.active-circle:hover, .circle-btn-play.active-circle:hover {
 	background-color: #1d6991;
 }
 
-.circle-btn.active-circle {
+.circle-btn.active-circle, .circle-btn-play.active-circle {
 	background-color: #F38630;
 }
 
