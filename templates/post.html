@@ -1,7 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
+{% endblock %}
+{% block pages %}
+
 <h1><a href={{ url_for('posts') }}>Blog</a></h1>
-{{ post.html|safe }}
-{{ post.title }}
-{{ post.date }}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            {{ post.html|safe }}
+            {{ post.title }}
+            {{ post.date }}
+        </div>
+    </div>
+</div>
+
 {% endblock %}
