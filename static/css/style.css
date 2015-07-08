@@ -40,10 +40,15 @@ ul,ol{
 	padding-left: 0px;
 }
 
-.circle-btn li, .circle-btn-play li {
+.circle-btn li{
 	display: inline-block;
 	text-align: center;
 	padding: 0px;
+}
+
+.circle-btn-play li {
+	display: inline-block;
+	text-align: center;
 }
 
 .circle-btn, .circle-btn-play {
