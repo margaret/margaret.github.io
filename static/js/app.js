@@ -23,15 +23,15 @@ var main = function() {
     $(this).removeClass('active-circle');
     var nextActiveIndex = getRandomInt(0, $(this).siblings().length);
     var nextActive = $(this).siblings().eq(nextActiveIndex);
-    nextActive.addClass('active');
+    nextActive.addClass('active-circle');
   });
 
   $('.circle-btn-play').hover(function() {
     $(this).removeClass('active-circle');
     var nextActiveIndex = getRandomInt(0, $(this).siblings().length);
-    console.log(nextActiveIndex)
+    console.log(nextActiveIndex);
     var nextActive = $(this).siblings().eq(nextActiveIndex);
-    nextActive.addClass('active');
+    nextActive.addClass('active-circle');
   });
 
 };
