@@ -17,6 +17,10 @@ h3 {
 	text-align: center;
 }
 
+h4 {
+	padding-top: 10px;
+}
+
 ul {
 	/*padding-left: 0;*/
 	/*why was this here again?*/
