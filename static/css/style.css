@@ -22,8 +22,8 @@ h4 {
 }
 
 ul {
-	/*padding-left: 0;*/
-	/*This was to center the circle-btn things*/
+	padding-left: 0;
+	/*This was to center the circle-btn things. Dunno why it won't work on circle-btn ul :\ */
 }
 
 .circle-select ul {
@@ -45,9 +45,6 @@ ul {
 	padding-left: 0px;
 }
 
-.circle-select ul {
-	padding-left: 0;
-}
 
 .circle-btn li {
 	display: inline-block;
