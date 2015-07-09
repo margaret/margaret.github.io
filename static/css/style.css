@@ -23,7 +23,7 @@ h4 {
 
 ul {
 	/*padding-left: 0;*/
-	/*why was this here again?*/
+	/*This was to center the circle-btn things*/
 }
 
 .circle-select ul {
@@ -43,6 +43,10 @@ ul {
 	text-align: left;
 	margin-left: 0px;
 	padding-left: 0px;
+}
+
+.circle-btn ul {
+	padding-left: 0;
 }
 
 .circle-btn li {

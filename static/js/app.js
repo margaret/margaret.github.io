@@ -29,7 +29,6 @@ var main = function() {
   $('.circle-btn-play').hover(function() {
     $(this).removeClass('active-circle');
     var nextActiveIndex = getRandomInt(0, $(this).siblings().length);
-    console.log(nextActiveIndex);
     var nextActive = $(this).siblings().eq(nextActiveIndex);
     nextActive.addClass('active-circle');
   });
