@@ -1,8 +1,8 @@
-title: Things I Learned This Week 2015-07-06
+title: Things I learned this week - July 6th 2015
 date: 2015-07-08 23:54
-tags: python; perception; things I learned this week; job search
+tags: python decorators; in-browser markdown editor; job hunting and self esteem; color displays; subreddit simulator; goddammit berkeley
 
-##Things I Learned This Week 2015-07-06
+##Things I Learned This Week: July 6th 2015
 
 I've been meaning to get a blog started for years, but didn't know what to write about. In the spirit of breadth vs. depth,  I'm going to just dump some interesting things I learned about each week, a la the weekly links on [slatestarcodex](http://slatestarcodex.com/). I think I'll probably update each post throughout the week, since I suspect if I wait til the end of the week to write things up, I'll never actually write anything up. 
 
@@ -30,11 +30,13 @@ I graduated at the end of May but I'm still looking for a job. I could do a whol
 
 - Not ending otherwise perfectly good sentences with ". . . .and ...yeah....."
 - Not rambling.
-- Not using "just" as a qualifier. I didn't "just" extend an unofficial API for a thing, I extended an unofficial API for a thing. 
+- Not using "just" as a qualifier. I didn't "just extend an unofficial API" for a thing, I "extended an unofficial API for a thing." 
 
 ####Color Displays
 Why do the colors get all weird when you change the vertical angle that you view your monitor from?
-The (unfortunately paywalled) answer: http://blogs.plos.org/mitsciwrite/2013/05/02/your-computer-screen-from-an-angle/. Summary coming soon.
+
+[The answer](http://blogs.plos.org/mitsciwrite/2013/05/02/your-computer-screen-from-an-angle/), courtesy of MITsciwrite. 
+Summary coming soon.
 
 Related: https://en.wikipedia.org/wiki/Gamut
 I think in an alternate universe where I entered college as a Cognitive Science major, I would have ended up studying something in this field. Heck, for a minute I actually contemplated shelling out for this textbook, but I think I'll just settle for googling everything in the table of contents. :( I wish I hadn't sold my textbook from the class I took on perception.

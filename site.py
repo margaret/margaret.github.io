@@ -21,7 +21,7 @@ app.config.from_object(__name__)
 def index():
     return render_template('index.html')
 
-@app.route("/posts.html")
+@app.route("/posts/")
 def posts():
     posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
     posts.sort(key=lambda item:item['date'], reverse=True)
@@ -34,7 +34,7 @@ def post(name):
     post = flatpages.get_or_404(path)
     return render_template('post.html', post=post)
 
-@app.route('/posts/archive.html')
+@app.route('/posts/archive/')
 def archive():
     all_posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
     groupby_month = {}
@@ -66,11 +66,11 @@ def convert_month(date):
     return ' '.join([months[raw_date[1]], raw_date[0]])
 
 
-@app.route("/projects.html")
+@app.route("/projects/")
 def projects():
     return render_template('projects.html')
 
-@app.route("/berkeley.html")
+@app.route("/berkeley/")
 def berkeley():
     return render_template('berkeley.html')
 
