@@ -1,4 +1,4 @@
-#!/usr/bin/env/python
+#!/usr/bin/env python
 import sys, os
 sys.path.append('/Users/margaret/anaconda/lib/python2.7/site-packages')
 from flask import Flask, Markup, render_template, render_template_string
