@@ -13,15 +13,10 @@ To the surprise of absolutely no one, I managed to miss about three weeks of pos
 Sometimes you want an answer on a scale of 1 to 5, sometimes on a scale of 1 to 10. Sometimes, you want to know "on a scale of 1 to Kodak not getting into digital photography, how bad of an idea is this?" Some answers I got were:
 
 ["WindowsME"](https://en.wikipedia.org/wiki/Windows_ME#Reception)
+
 ["Atari Jaguar"](https://en.wikipedia.org/wiki/Atari_Jaguar)
 
 The thing in question was not done. 
-
-####Job Hunting
-Well, looking back, job hunting really sucks. At this point of the month, I still didn't have any job offers and was getting really frustrated with everything. I was actually having trouble getting past initial engineering phone screens, and I suspected it might have something to do with how I was (not) selling myself. After talking to a lot of people, I decided to consciously focus on:
- - Not ending otherwise perfectly good sentences with "...and yeah." In general, also trying not to ramble.
- - Saying "I did X" instead of "I just did X." Own your projects!
- - Going in with the attitude that the interview was for deciding whether I was a good fit for the company, not me trying to prove my worth as they grill me. 
 
 ####Fossil Fuels and Post-apocalyptic Rebuilding
 [Alex](http://alexmennen.com/) shared an interesting [article](aeon.co/magazine/technology/could-we-reboot-civilisation-without-fossil-fuels/) that explores the idea that we would not be able to have another industrial revolution after an apocalypse, since we've used up all the easy-to-access fossil fuels. The bottleneck could actually be not having enough power to get smelting temperatures high enough to work with metals. 
@@ -32,6 +27,7 @@ Just one of those things that I never explicitly studied. I know some SQL from [
 Non-relational databases allow the insertion of data without a predefined schema. This is particularly useful in an environment where you're constantly taking in new streams of data and the ability to be flexible is more useful than having perfectly optimized queries every time. Support for auto-sharding is also helpful with horizontal scaling.
 
 Different types of non-relational databases include:
+
 - **Document databases**: docs contain key-value pairs, key-array pairs, or even nested documents.
 - **Graph stores**: what it says on the can. Storing information as a graph data structure.
 - **Key-Value stores**: The simplest kind. Some of these (like Redis) have support for typing.
