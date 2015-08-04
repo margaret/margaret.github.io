@@ -36,9 +36,12 @@ I graduated at the end of May but I'm still looking for a job. I could do a whol
 Why do the colors get all weird when you change the vertical angle that you view your monitor from?
 
 [The answer](http://blogs.plos.org/mitsciwrite/2013/05/02/your-computer-screen-from-an-angle/), courtesy of MITsciwrite. 
-Summary coming soon.
+To be honest, I wasn't able to completely grok why this happens, but from what I can tell it involves something like: Your computer screen displays colors is by controlling how much red, green, or blue light is exposed from each subpixel. This is done with a mechanism sort of like window blinds that can change angles, which will increase or decrease the amount of light that gets through. This all assumes that you are viewing your screen from the front. 
 
-Related: https://en.wikipedia.org/wiki/Gamut
+There was also an interesting explanation of gamma correction (our eyes detect brightness logarithmically, so why bother storing minute changes in brightness?), but I couldn't quite connect this with the information on angle viewing.  
+
+Related: A "[gamut](https://en.wikipedia.org/wiki/Gamut)" is either the full color spectrum, or the subset covered by a colorspace or a physical method of representing color. 
+
 I think in an alternate universe where I entered college as a Cognitive Science major, I would have ended up studying something in this field. Heck, for a minute I actually contemplated shelling out for this textbook, but I think I'll just settle for googling everything in the table of contents. :( I wish I hadn't sold my textbook from the class I took on perception.
 
 ####Subreddit Simulator

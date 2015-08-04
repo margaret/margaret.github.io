@@ -69,6 +69,39 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             
+            <h2>Things I Learned This Week: July 12th 2015</h2>
+<p>To the surprise of absolutely no one, I managed to miss about three weeks of posts. Maybe I should actually just do a link dump instead of trying to summarize things. Anyway, here are some links from July. </p>
+<h4>Gorskii Colorization</h4>
+<p><a href="https://en.wikipedia.org/wiki/Sergey_Prokudin-Gorsky#Photography_technique">Sergey Prokudin-Gorskii</a> was an early 20th-century photographer, whose claim to fame was basically doing color photography <em>before there was even a way to produce color photos</em>. Getting color information only via black and white photography involves taking the same photo three times, once with a red, green, or blue filter in order to capture each of the color channels. These were recombined by projecting them through colored filters, but now it seems to be a standard intro homework for computer vision courses to reproduce the color images by aligning the plates and applying appropriate corrective filters. </p>
+<h4>Terrible Decisions</h4>
+<p>Sometimes you want an answer on a scale of 1 to 5, sometimes on a scale of 1 to 10. Sometimes, you want to know "on a scale of 1 to Kodak not getting into digital photography, how bad of an idea is this?" Some answers I got were:</p>
+<p><a href="https://en.wikipedia.org/wiki/Windows_ME#Reception">"WindowsME"</a>
+<a href="https://en.wikipedia.org/wiki/Atari_Jaguar">"Atari Jaguar"</a></p>
+<p>The thing in question was not done. </p>
+<h4>Job Hunting</h4>
+<p>Well, looking back, job hunting really sucks. At this point of the month, I still didn't have any job offers and was getting really frustrated with everything. I was actually having trouble getting past initial engineering phone screens, and I suspected it might have something to do with how I was (not) selling myself. After talking to a lot of people, I decided to consciously focus on:
+ - Not ending otherwise perfectly good sentences with "...and yeah." In general, also trying not to ramble.
+ - Saying "I did X" instead of "I just did X." Own your projects!
+ - Going in with the attitude that the interview was for deciding whether I was a good fit for the company, not me trying to prove my worth as they grill me. </p>
+<h4>Fossil Fuels and Post-apocalyptic Rebuilding</h4>
+<p><a href="http://alexmennen.com/">Alex</a> shared an interesting <a href="aeon.co/magazine/technology/could-we-reboot-civilisation-without-fossil-fuels/">article</a> that explores the idea that we would not be able to have another industrial revolution after an apocalypse, since we've used up all the easy-to-access fossil fuels. The bottleneck could actually be not having enough power to get smelting temperatures high enough to work with metals. </p>
+<h4>NoSQL vs SQL</h4>
+<p>Just one of those things that I never explicitly studied. I know some SQL from <a href="http://sqlzoo.net/">SQLzoo</a>, but I'm not sure why exactly one would choose NoSQL over SQL or vice versa. Main points from <a href="https://www.mongodb.com/nosql-explained">MongoDB</a> and this really interesting <a href="https://medium.com/s-c-a-l-e/amplab-s-co-creator-on-where-big-data-is-headed-and-why-spark-is-so-big-f0c0da2f7c0f">interview</a> with Professor Michael Franklin of AMPLab about the historical perspective on NoSQL. </p>
+<p>Non-relational databases allow the insertion of data without a predefined schema. This is particularly useful in an environment where you're constantly taking in new streams of data and the ability to be flexible is more useful than having perfectly optimized queries every time. Support for auto-sharding is also helpful with horizontal scaling.</p>
+<p>Different types of non-relational databases include:
+- <strong>Document databases</strong>: docs contain key-value pairs, key-array pairs, or even nested documents.
+- <strong>Graph stores</strong>: what it says on the can. Storing information as a graph data structure.
+- <strong>Key-Value stores</strong>: The simplest kind. Some of these (like Redis) have support for typing.
+- <strong>Wide-column Stores</strong>: (e.g. HBase and Cassandra) store data by column, and are optimized for querying large datasets. </p>
+<h4>It's gone meta!</h4>
+<p>My new all-time favorite Reddit <a href="https://www.reddit.com/r/totallynotrobots/comments/3cmva7/i_have_discovered_a_subreddit_that_is_composed_of/">post</a>. In which /r/totallynotrobots discovers /r/subredditsimulator. </p>
+<p><small>Written with <a href="https://stackedit.io/">StackEdit</a>.</small></p>
+            <p></p><a href="/posts/Things%20I%20Learned%20This%20Week%202015-07-12/">
+            Things I learned this week - July 12th 2015
+        </a><small>2015-08-03 18:45</small></p>
+            <br>
+            <br>
+            
             <h2>Things I Learned This Week: July 6th 2015</h2>
 <p>I've been meaning to get a blog started for years, but didn't know what to write about. In the spirit of breadth vs. depth,  I'm going to just dump some interesting things I learned about each week, a la the weekly links on <a href="http://slatestarcodex.com/">slatestarcodex</a>. I think I'll probably update each post throughout the week, since I suspect if I wait til the end of the week to write things up, I'll never actually write anything up. </p>
 <p>Should I have just incorporated an preexisting blogging platform into my site? Probably. But where's the fun in that? I don't really know much web dev so I'm going to take this opportunity to reinvent a few wheels. </p>
@@ -95,9 +128,10 @@
 <h4>Color Displays</h4>
 <p>Why do the colors get all weird when you change the vertical angle that you view your monitor from?</p>
 <p><a href="http://blogs.plos.org/mitsciwrite/2013/05/02/your-computer-screen-from-an-angle/">The answer</a>, courtesy of MITsciwrite. 
-Summary coming soon.</p>
-<p>Related: https://en.wikipedia.org/wiki/Gamut
-I think in an alternate universe where I entered college as a Cognitive Science major, I would have ended up studying something in this field. Heck, for a minute I actually contemplated shelling out for this textbook, but I think I'll just settle for googling everything in the table of contents. :( I wish I hadn't sold my textbook from the class I took on perception.</p>
+To be honest, I wasn't able to completely grok why this happens, but from what I can tell it involves something like: Your computer screen displays colors is by controlling how much red, green, or blue light is exposed from each subpixel. This is done with a mechanism sort of like window blinds that can change angles, which will increase or decrease the amount of light that gets through. This all assumes that you are viewing your screen from the front. </p>
+<p>There was also an interesting explanation of gamma correction (our eyes detect brightness logarithmically, so why bother storing minute changes in brightness?), but I couldn't quite connect this with the information on angle viewing.  </p>
+<p>Related: A "<a href="https://en.wikipedia.org/wiki/Gamut">gamut</a>" is either the full color spectrum, or the subset covered by a colorspace or a physical method of representing color. </p>
+<p>I think in an alternate universe where I entered college as a Cognitive Science major, I would have ended up studying something in this field. Heck, for a minute I actually contemplated shelling out for this textbook, but I think I'll just settle for googling everything in the table of contents. :( I wish I hadn't sold my textbook from the class I took on perception.</p>
 <h4>Subreddit Simulator</h4>
 <p>If you've been on reddit for a certain amount of time, you'll probably wonder if anyone would even notice if people just started submitting posts generated by Markov Chains because it seems like the same sort of crap just comes up over and over. Enter <a href="http://reddit.com/r/subredditsimulator">/r/subredditsimulator</a>.</p>
 <h4>Goddammit Berkeley</h4>
