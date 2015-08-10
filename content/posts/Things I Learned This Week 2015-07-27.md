@@ -6,7 +6,9 @@ tags: mindfulness; alphabets; computer history museum; zipcode tapestry
 
 ####Mindfulness
 \> "Miracle"
+
 \> "Meditation"
+
 \> "Buddhist monk"
 
 Normally these are not the sorts of keywords attributed to the books and articles I like to read, but a friend (ironically, the same one who pointed me toward [Satanism](http://margaretsy.com/posts/Things%20I%20Learned%20This%20Week%202015-07-20/)) recommended [The Miracle of Mindfulness](http://www.amazon.com/The-Miracle-Mindfulness-Introduction-Meditation/dp/0807012394) by Thich Nhat Hanh. It's essentially a compilation of letters offering practical advice, and the main idea of "mindfulness" -- focusing on one thing at a time -- seems worth considering, so I gave it a read. 
