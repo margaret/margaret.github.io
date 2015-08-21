@@ -2,7 +2,7 @@ title: Things I Learned This Week - July 27th 2015
 date: 2015-08-10 15:59
 tags: mindfulness; alphabets; computer history museum; zipcode tapestry
 
-## Things I Learned This Week July 27th 2015
+## Things I Learned This Week: July 27th 2015
 
 ####Mindfulness
 \> "Miracle"
