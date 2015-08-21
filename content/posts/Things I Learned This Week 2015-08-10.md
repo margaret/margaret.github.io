@@ -14,7 +14,7 @@ I learned via Engaget about a *real* typewriter simulator editor app called [Ove
 ...it was terrible and this was as far as I got. I actually have interfaced with a real typewriter before (a friend's roommate was really into the whole vintage aesthetic), but as the ink had not been refilled it was more of a randomly-pressing buttons to make fun sounds experience. 
 
 ####Evil tech
-I really liked this [TechCrunch article](http://www.theverge.com/2015/7/28/9058203/batman-v-superman-lex-luthor-tech-ceo) which pointed out how one of the movie villain tropes of the current era is the *tech CEO*. Lex Luthor is literally Mark Zuckerberg. The antagonist in Ex Machina is a similarly modeled genius entrepreneur.
+I really liked this [article](http://www.theverge.com/2015/7/28/9058203/batman-v-superman-lex-luthor-tech-ceo) from The Verge which pointed out how one of the movie villain tropes of the current era is the *tech CEO*. Lex Luthor is literally Mark Zuckerberg. The antagonist in Ex Machina is a similarly modeled genius entrepreneur.
 
 I'm too lazy to write a whole essay on this, but the article definitely got me thinking in the direction of "What is the place of tech in society?" "How much hubris must you have to found a startup nowadays?" "How do people out of the Silicon Valley bubble view all this? Man, they probably rarely think about this sort of thing at all."
 
