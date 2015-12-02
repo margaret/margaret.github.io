@@ -10,15 +10,27 @@
 body {
 	background-color: #E0E4CC; 
 	padding-top: 30px;
-	font-family: Courier, sans-serif;
+	/*font-family: Courier, sans-serif;*/
+	font-family: Helvetica, sans-serif;
+}
+
+
+h1 {
+	font-family: Courier,serif;
+}
+
+h2 {
+	font-family: Courier,serif;
 }
 
 h3 {
 	text-align: center;
+	font-family: Courier,serif;
 }
 
 h4 {
 	padding-top: 10px;
+	font-family: Courier,serif;
 }
 
 ul {
@@ -50,6 +62,7 @@ ul {
 	display: inline-block;
 	text-align: center;
 	padding: 0px;
+
 }
 
 .circle-btn-play li {
@@ -75,6 +88,7 @@ ul {
 
 .circle-btn h3, .circle-btn-play h3 {
 	font-size: 0.5em;
+	font-family: Courier,serif;
 }
 
 .circle-btn a, .circle-btn-play a {
@@ -86,6 +100,7 @@ ul {
 	padding-top: 40px;
 	font-size: 0.5em; 
 	color: gray;
+	font-family: Courier,serif;
 }
 
 .circle-btn:hover, .circle-btn-play:hover {
@@ -144,6 +159,7 @@ ul {
 	background-color: #1d6991;
 	display: inline;
 	color: white;
+	font-family: Courier,serif;
 }
 
 ul.nav a {color:#E0E4CC !important;}
@@ -157,6 +173,7 @@ ul.nav a:hover { color: white !important; }
 .jumbotron {
 	background-color: #E0E4CC;
 	padding-bottom: 0px;
+	font-family:Courier,serif;
 }
 
 .jumbotron h1 {
@@ -164,6 +181,7 @@ ul.nav a:hover { color: white !important; }
 	font-size: 4em;
 	color: #FA6900;
 	font-weight: bold;
+	/*font-family: Courier,serif;*/
 }
 
 .jumbotron h2 {
@@ -171,6 +189,7 @@ ul.nav a:hover { color: white !important; }
 	text-align: center;
 	color: #F38630;
 	font-weight: bold;
+	/*font-family: Courier,serif;*/
 }
 
 
