@@ -43,6 +43,10 @@ img {
     margin: 0 auto;
 }
 
+iframe, object, embed {
+        max-width: 100%;
+}
+
 .circle-select ul {
 	padding-left: 0;
 }
