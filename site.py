@@ -70,9 +70,9 @@ def convert_month(date):
 def projects():
     return render_template('projects.html')
 
-@app.route("/berkeley/")
-def berkeley():
-    return render_template('berkeley.html')
+@app.route("/makeup/")
+def makeup():
+    return render_template('makeup.html')
 
 @app.errorhandler(404)
 def page_not_found(e):
