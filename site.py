@@ -79,9 +79,9 @@ def page_not_found(e):
     return render_template('404.html'), 404
 
 # for static site
-@freezer.register_generator
-def error_handlers():
-    yield "/404"
+# @freezer.register_generator
+# def error_handlers():
+#     yield "/404"
 
 # only used with live site
 @app.errorhandler(500)
