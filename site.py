@@ -39,13 +39,16 @@ def archive():
     all_posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
     groupby_month = {}
     for post in all_posts:
-        # month = convert_month(post['date'][:7])
         month = post['date'][:7]
         if month in groupby_month:
             groupby_month[month].append(post)
         else:
             groupby_month[month] = [post]
     groupby_month = OrderedDict(sorted(groupby_month.items(), key=lambda item: item[0], reverse=True))
+
+    for month in groupby_month:
+      groupby_month[month].sort(key=lambda post: post.meta['date'])
+
     return render_template('archive.html', archive=groupby_month, date_formatter=convert_month)
 
 def convert_month(date):
