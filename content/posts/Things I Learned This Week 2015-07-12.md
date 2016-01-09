@@ -9,7 +9,7 @@ To the surprise of absolutely no one, I managed to miss about three weeks of pos
 ####Gorskii Colorization 
 [Sergey Prokudin-Gorskii](https://en.wikipedia.org/wiki/Sergey_Prokudin-Gorsky#Photography_technique) was an early 20th-century photographer, whose claim to fame was basically doing color photography *before there was even a way to produce color photos*. Getting color information only via black and white photography involves taking the same photo three times, once with a red, green, or blue filter in order to capture each of the color channels. These were recombined by projecting them through colored filters, but now it seems to be a standard intro homework for computer vision courses to reproduce the color images by aligning the plates and applying appropriate corrective filters. 
 
-![Three channels](https://inst.eecs.berkeley.edu/~cs194-26/fa14/hw/proj1/proj1_files/image001.jpg)
+<img width="100%" alt="three channels" src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/hw/proj1/proj1_files/image001.jpg" />
 
 ####Terrible Decisions
 Sometimes you want an answer on a scale of 1 to 5, sometimes on a scale of 1 to 10. Sometimes, you want to know "on a scale of 1 to Kodak not getting into digital photography, how bad of an idea is this?" Some answers I got were:

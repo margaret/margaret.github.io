@@ -25,26 +25,26 @@ Okay so that whole announcement about ~~Google~~ [Alphabet](http://abc.xyz) asid
 
 **[Tibetan](https://en.wikipedia.org/wiki/Tibetan_alphabet)**
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tibetan_script.svg/750px-Tibetan_script.svg.png)
+<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tibetan_script.svg/750px-Tibetan_script.svg.png" />
 
 **[Georgian](https://en.wikipedia.org/wiki/Georgian_scripts)**
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Asomtavruli.svg/750px-Asomtavruli.svg.png)
+<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Asomtavruli.svg/750px-Asomtavruli.svg.png" />
 
 **[Tifinagh](https://en.wikipedia.org/wiki/Tifinagh) (Berber)**
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Amz-plake_province_Tiznite.JPG/465px-Amz-plake_province_Tiznite.JPG)
+<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Amz-plake_province_Tiznite.JPG/465px-Amz-plake_province_Tiznite.JPG" />
 
 **[Inuktitut](https://en.wikipedia.org/wiki/Inuktitut_syllabics) (Inuit)**
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/IqaluitStop.jpg/465px-IqaluitStop.jpg)
+<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/IqaluitStop.jpg/465px-IqaluitStop.jpg" />
 
 ####Computer History Museum
 Despite growing up in the Bay Area, I only learned that the [Computer History Museum](http://www.computerhistory.org/) existed this week when my dad announced that he'd seen a groupon for tickets, and that we were going. It's a pretty legit museum, though definitely more of a look-don't-touch place (the Exploratorium's the way to go if you like interactive exhibits). The main section has a cool walkthrough of historical computing devices from abaci all the way up through the obligatory "THE FUTURE??!?" exhibits on AI and HCI. Some of the current rotating exhibits were on self-driving vehicles and VR. 
 
 It's a place best enjoyed if you have either a strong interest or higher education with computers -- heck, I majored in CS and I still walked through some of the sections (but there is really too much content to read everything in one visit). I can see little kids or willfully ignorant older folks getting pretty bored. If you can, try and catch one of the tours. Ours was given not by one of the docents, but by the volunteer manager who was a history major (...focusing on illuminated medieval manuscripts) and gave a charismatic and cohesive tour that also discussed the portrayal of computers in movies and how that reflected society's attitude towards them over the years. They also have a working model of a Babbage Analytical Engine as well as some resurrected ancient IBM computers from the 1960s which are really great for making you appreciate how insane all the tech has become.  
 
-![iphone](http://i.imgur.com/ibfaqHQ.jpg)
+<img width="100%" alt="iphone" src="http://i.imgur.com/ibfaqHQ.jpg" />
 
 
 ####ESRI Zipcode Tapestry 
