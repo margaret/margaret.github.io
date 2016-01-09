@@ -7,7 +7,7 @@ tags: Publicly Owned Private Open Spaces; addictive games; reflection erasure; n
 ####POPOS
 AKA ["Privately Owned Public Open Spaces"](http://www.sf-planning.org/index.aspx?page=3339) are a thing in SF. Basically, a space (courtyard, rooftop deck, etc.) is privately owned, but the owner has kindly decided to make it open to the public.  I visited the 15th floor deck of 343 Sansome which was lovely and quiet and pigeon-free. No wi-fi and no restrooms but it's a nice place to eat lunch or read.
 
-<img width="100%" src="http://i.imgur.com/kBjkK.png" />
+<img width="100%" src="http://s3-media1.ak.yelpcdn.com/bphoto/gaB0dSQDgAy47BtBBDIA9Q/l.jpg" />
 
 The central art installation manages the impressive feat of  simultaneously looking like a penis and a vagina.
 
