@@ -63,45 +63,42 @@
 
     
 
-<div class="row circle-nav">
   <div class="col-md-6 col-md-offset-3">
-    <p>Smaller things and/or non-compsci work. Please see <a href="http://www.linkedin.com/in/margaretsy">LinkedIn</a> for my programming experience.</p>
-    <ul class="circle-select">
-      <li class="circle-btn">
-        <h3>Biology</h3>
-      </li>
-      <li class="circle-btn">
-        <h3>Brainfuck</h3>
-      </li>
-      <li class="circle-btn active-circle">
-        <h3>Animation</h3>
-      </li>
-      <li class="circle-btn">
-        <h3>Troxler</h3>
-      </li>
-      <li class="circle-btn">
-        <h3>ISS</h3>
-      </li>
-    </ul>
+    <p>Misc things I've worked on. Please see <a href="http://www.linkedin.com/in/margaretsy">LinkedIn</a> for my work experience.</p>
   </div>
-</div>
 
-
-<div class="articles container">
-
-  <div class="article row" id="Biology">
+<div class="container">
+  
+  <div class="row" id="ISS">
     <div class="col-md-8 col-md-offset-2">
-      <h5 style="text-align: center">I decided to try science.</h5>
-      <h3>Bioinformatics</h3>
-      <p>Wrote a good chunk of the pipeline for a a study on <a href="http://www.pnas.org/content/110/43/17409.full">the Neofunctionalization of young duplicate genes in Drosophila</a> in the <a href="http://ib.berkeley.edu/labs/bachtrog/">Bachtrog Lab</a> . It mostly involved <a href="http://xkcd.com/208/">regex</a> and plotting things. </p>
+      <h3>ISS Tracker</h3>
+      <p>Basic Javascript and web dev refresher project. Made a simple version of <a href="http://isstracker.com">ISS Tracker</a> using the <a href="http://open-notify.org/Open-Notify-API/ISS-Location-Now/">Open-Notify API.</a> Check it out <a href="http://margaretsy.com/ISS-tracker">here.</a></p>
+    </div>
+   </div>
 
-      <h3>Molecular Biology</h3>
-      <p>Once upon a time, I was an Integrative Biology major, and decided that I should try benchwork to be more well-rounded. I worked in the <a href="http://online.sfsu.edu/stillmaj/">Stillman Lab</a> in Fall 2012, doing RNA purification for a project on the effect of increasing temperatures on insects in local streams. I followed a phenol-chloroform extraction protocol, which invovled a lot of micropipetting and cutting up flash-frozen caddisflies with tiny scissors and pureéing their body parts.</p>
-
+  <div class="row" id="Datamuse">
+    <div class="col-md-8 col-md-offset-2">
+        <h3>Datamuse</h3>
+        <p>Spun up a quick Python wrapper for easier querying of the cool stuff over at OneLook's <a href="http://datamuse.com/api">Datamuse API</a> (reverse-dictionary, rhyme and near rhyme dictionaries, various word relationship lookups, autocomplete suggestions, etc). Find it and other related apps at <a href="http://datamuse.com/api/users.html">http://datamuse.com/api/users.html</a></p>
     </div>
   </div>
 
-  <div class="article row" id="Brainfuck">
+  <div class="row" id="Animation">
+    <div class="col-md-8 col-md-offset-2">
+      <h3>UCBUGG</h3>
+      <p>I made an animated short in the Spring 2013 <a href="http://www.ucbugg.com/">UCBUGG</a> decal. I worked with Michael Ho, Nathan Connor, Stephanie Cai, <-- (major props to these three) Jin Kim, and Katherine Xu. I worked mostly on storyboarding and models. </p>
+      <p>I highly recommend taking the class if you're interested in learning the full animation pipeline! Just make sure you have enough time for it because it's a lot of work.</p>
+      <div class="iframe-wrapper" style="text-align:center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yYx-v687Ol0?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>Created using the amazing and frustrating Autodesk Maya.</p>
+      <!-- <img src=/static/imgs/ucbugg1.jpg width="256px" class="img-responsive"> -->
+      <img src=/static/imgs/ucbugg2.jpg width="256px" class="img-responsive">
+      <!-- <img src=/static/imgs/ucbugg3.jpg width="256px" class="img-responsive"> -->
+    </div>
+  </div>
+  
+  <div class="row" id="Brainfuck">
       <div class="col-md-8 col-md-offset-2">
         <h3>Brainfuck Interpreter</h3>
         <p>Once I procrastinated on my Compilers homework by writing a Brainfuck interpreter in Python. While Brainfuck is notoriously difficult to program in, it was actually pretty easy to implement, considering that there are only 8 commands. </p>
@@ -109,36 +106,27 @@
       </div>
   </div>
 
-   <div class="article active row" id="Animation">
+  <div class="row" id="Biology">
     <div class="col-md-8 col-md-offset-2">
-      <h3>UCBUGG</h3>
-      <p>I made an animated short in the Spring 2013 <a href="http://www.ucbugg.com/">UCBUGG</a> decal. I worked with Michael Ho, Nathan Connor, Stephanie Cai, <-- (major props to these three) Jin Kim, and Katherine Xu. I worked mostly on storyboarding and models. </p>
-      <p>I highly recommend taking the class if you're interested in learning the full animation pipeline! Just make sure you have enough time for it because it's a lot of work.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/yYx-v687Ol0?rel=0" frameborder="0" allowfullscreen></iframe>
-      <p>Created using the amazing and frustrating Autodesk Maya.</p>
-      <img src=/static/imgs/ucbugg1.jpg width="256px" class="img-responsive">
-      <img src=/static/imgs/ucbugg2.jpg width="256px" class="img-responsive">
-      <img src=/static/imgs/ucbugg3.jpg width="256px" class="img-responsive">
-    </div>
-   </div>
+    <h3>Biology</h3>
 
-  <div class="article row" id="Troxler">
+      <h4>Bioinformatics</h4>
+      <p>Wrote a good chunk of the pipeline for a a study on <a href="http://www.pnas.org/content/110/43/17409.full">the Neofunctionalization of young duplicate genes in Drosophila</a> in the <a href="http://ib.berkeley.edu/labs/bachtrog/">Bachtrog Lab</a> . It mostly involved <a href="http://xkcd.com/208/">regex</a> and plotting things. </p>
+
+      <h4>Molecular Biology</h4>
+      <p>Once upon a time, I was an Integrative Biology major, and decided that I should try benchwork to be more well-rounded. I worked in the <a href="http://online.sfsu.edu/stillmaj/">Stillman Lab</a> in Fall 2012, doing RNA purification for a project on the effect of increasing temperatures on insects in local streams. I followed a phenol-chloroform extraction protocol, which invovled a lot of micropipetting and cutting up flash-frozen caddisflies with tiny scissors and pureéing their body parts.</p>
+
+    </div>
+  </div>
+
+  <div class="row" id="Circles">
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Circles</h3>
+      <p>If you stare at the center of the demo long enough while hovering randomly over the circles quickly you can get some weird <a href="https://en.wikipedia.org/wiki/Troxler%27s_fading">Troxler's fading</a> effects to happen. Made this way back when I first started poking around with jQuery, but what can I say, I still find it amusing. 
+      If you like this sort of thing, also see the <a href="https://en.wikipedia.org/wiki/Lilac_chaser">Lilac Chaser</a> illusion.</p>
+    </div>
     <div class="col-md-6 col-md-offset-3">
-      <p>If you stare at the center of the demo long enough while hovering randomly over the circles quickly you can get some weird <a href="https://en.wikipedia.org/wiki/Troxler%27s_fading">Troxler's fading</a> effects to happen.
-      If you like this sort of thing, also see the <a href="https://en.wikipedia.org/wiki/Lilac_chaser">Lilac Chaser</a> illusion. Or maybe LSD.</p>
       <ul>
-        <li class="circle-btn-play">
-          <h3>??</h3>
-        </li>
-        <li class="circle-btn-play">
-          <h3>??</h3>
-        </li>
-        <li class="circle-btn-play">
-          <h3>??</h3>
-        </li>
-        <li class="circle-btn-play">
-          <h3>??</h3>
-        </li>
         <li class="circle-btn-play">
           <h3>??</h3>
         </li>
@@ -178,13 +166,6 @@
       </ul>
     </div>
   </div>
-
-   <div class="article active row" id="ISS">
-    <div class="col-md-8 col-md-offset-2">
-      <h3>ISS Tracker</h3>
-      <p>Basic Javascript and web dev refresher project. Made a simple version of <a href="http://isstracker.com">ISS Tracker</a> using the <a href="http://open-notify.org/Open-Notify-API/ISS-Location-Now/">Open-Notify API.</a> Check it out <a href="http://margaretsy.com/ISS-tracker">here.</a></p>
-    </div>
-   </div>
 
 
 </div>
