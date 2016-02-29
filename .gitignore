@@ -2,3 +2,6 @@
 .idea/
 .DS_Store
 imgs/.DS_Store
+site-env/
+build/
+build-old/
