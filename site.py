@@ -51,6 +51,10 @@ def archive():
 
     return render_template('archive.html', archive=groupby_month, date_formatter=convert_month)
 
+@app.route('/links/')
+def links():
+  return render_template('links.html')
+
 def convert_month(date):
     """date is a string with format 'yyyy-mm' """
     months = {'01':'January',
