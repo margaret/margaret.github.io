@@ -1,55 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
+
 <h1>Margaret Sy</h1>
-</div>
-</div>
 
-<div class="row circle-nav">
-  <div class="col-md-6 col-md-offset-3">
-    <ul class="circle-select">
-      <li class="circle-btn">
-        <h3>Contact</h3>
-      </li>
-      <li class="circle-btn active-circle">
-        <h3>Welcome</h3>
-      </li>
-      <li class="circle-btn">
-        <h3>LinkedIn</h3>
-      </li>
-    </ul>
-  </div>
-</div>
+<h3>Tl;dr</h3>
+<p>I'm a software engineer at <a href="http://swiftnav.com">Swift Navigation</a> in San Francisco, where we make high-accuracy positioning sensors for flying robots and autonomous vehicles and stuff.</p>
+<p>Some things I like: dancing, drawing, coffee, science, coffee, painting, YouTube, spaaaaace, dogs, coffee, naps, and lists.</p>
 
+<p><a href="https://www.linkedin.com/in/margaretsy">LinkedIn</a> | 
+<a href="https://github.com/margaret">GitHub</a> | 
+<a href="http://ocf.berkeley.edu/~marsy/Margaret_Sy_Resume.pdf">Resumé</a></p>
 
-<div class="articles container">
-
-  <div class="article row">
-    <div class="col-md-8 col-md-offset-2 text-center">
-      <p>Email: margaretsy1016 [at] gmail [dot] com</p>
-      <div style="text-align: center;"><img src={{ url_for('static', filename="imgs/octopus.png") }} style="width:250px" class="img-responsive"></div>
-    </div>
-  </div>
-
-  <div class="article active row">
-    <!-- <div class="col-md-8 col-xs-12 col-md-offset-2"> -->
-    <div class="col-md-6 col-md-offset-3">
-      <h3>Tl;dr</h3>
-      <p>I'm a software engineer at <a href="http://swiftnav.com">Swift Navigation</a> in San Francisco, where we make high-accuracy positioning sensors for flying robots and autonomous vehicles and stuff.</p>
-      <p>Some things I like: dancing, drawing, coffee, science, coffee, painting, YouTube, spaaaaace, dogs, coffee, naps, and lists.</p>
-
-      <a href="https://www.ocf.berkeley.edu/~marsy/">
-      <img src={{ url_for('static', filename="imgs/svcomiccon.jpg")}} width="250px" title="beep boop secret website" class="img-circle">
-      </a>
-    </div>
-  </div>
-
-  <div class="article row">
-    <div class="col-md-8 col-md-offset-2 text-center">
-      <p><a href="https://www.linkedin.com/in/margaretsy">LinkedIn</a></p>
-      <p><a href="https://github.com/margaret">GitHub</a></p>
-      <p><a href="http://ocf.berkeley.edu/~marsy/Margaret_Sy_Resume.pdf">Resumé</a></p>
-      <br>
-      <a href="https://fish.cs.berkeley.edu/"><img src={{ url_for('static', filename="imgs/koi.png") }} width="250px" title="fish" class="img-responsive"></a>
-    </div>
-  </div>
+<a href="https://www.ocf.berkeley.edu/~marsy/">
+<img src={{ url_for('static', filename="imgs/svcomiccon.jpg")}} width="250px" title="beep boop secret website" class="img-circle">
+</a>
 {% endblock %}
