@@ -52,6 +52,10 @@ iframe, object, embed {
         max-width: 100%;
 }
 
+.center-text {
+	text-align: center
+}
+
 .navlinks {
 	/*Match body*/
 	margin:40px auto;
