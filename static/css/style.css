@@ -39,11 +39,6 @@ h1 {
 	text-align: center;
 }
 
-ul {
-	padding-left: 0;
-	/*This was to center the circle-btn things. Dunno why it won't work on circle-btn ul :\ */
-}
-
 img {
     display: block;
     margin: 0 auto;
