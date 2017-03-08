@@ -52,6 +52,10 @@ iframe, object, embed {
         max-width: 100%;
 }
 
+.round-img img {
+	border-radius: 50%
+}
+
 .center-text {
 	text-align: center
 }
