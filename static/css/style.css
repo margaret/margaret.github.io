@@ -8,28 +8,34 @@
 */
 
 body {
-	background-color: #E0E4CC; 
-	padding-top: 30px;
+	/*this is from bettermotherfuckingwebsite*/
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:18px;
+	padding:0 10px;
+	color:#444;
+	/*this is custom*/
+	background-color: #E0E4CC;
 	font-family: Helvetica, sans-serif;
-	line-height: 1.6;
-	color: #444;
-	padding: 0 10px;
-	font-size: 18px;
 }
 
+a:link {
+	color: #1d6991;
+}
+a:visited {
+	color: #69D2E7;
+}
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: Courier,serif;
-	line-height: 1.2
+	color:#1d6991;
+	/*from bettermotherfuckingwebsite*/
+	line-height: 1.2;
 }
 
-h3 {
+h1 {
 	text-align: center;
-}
-
-h4 {
-	padding-top: 10px;
-	font-family: Courier,serif;
 }
 
 ul {
@@ -46,13 +52,21 @@ iframe, object, embed {
         max-width: 100%;
 }
 
-.circle-select ul {
-	padding-left: 0;
+.navlinks {
+	/*Match body*/
+	margin:40px auto;
+	max-width:650px;
+	padding:0 10px;
+	text-align: center;
+	font-family: Courier,serif;
+}
+.navlinks a {
+	text-decoration: none;
+	color:#FA6900;
 }
 
-.col-md-6 {
-	text-align: center;
-	list-style-type: none;
+.circle-select ul {
+	padding-left: 0;
 }
 
 .button-circle ul {
@@ -130,74 +144,4 @@ iframe, object, embed {
 .article.active {
 	display: inline;
 }
-
-.navbar {
-	background-color: #1d6991;
-	color: white;
-}
-
-#navigationbar li a.active {
-	background-color: #1d6991;
-}
-
-.nav .navbar{
-	background-color: #1d6991;
-	padding: 14px 14px;
-	color: white;
-}
-
-.nav a {
-	font-size: 1.5em;
-	background-color: #1d6991;
-	padding: 14px 14px 20px 20px;
-	color: white;
-}
-
-.navbar-inverse .navbar-nav > .active > a {
-    color: #FFF;
-    background-color: #FA6900;
-}
-
-.navbar-inverse .navbar-nav > .active > a:hover {
-    color: #FFF;
-    background-color: #FA6900;
-}
-
-.nav li {
-	background-color: #1d6991;
-	display: inline;
-	color: white;
-	font-family: Courier,serif;
-}
-
-ul.nav a {color:#E0E4CC !important;}
-
-ul.nav a:hover { color: white !important; }
-
-.nav ul > li.active > a:hover{
-	background-color: #F38630;
-}
-
-.jumbotron {
-	background-color: #E0E4CC;
-	padding-bottom: 0px;
-	font-family:Courier,serif;
-}
-
-.jumbotron h1 {
-	text-align: center;
-	font-size: 2.5em;
-	color: #FA6900;
-	font-weight: bold;
-	/*font-family: Courier,serif;*/
-}
-
-.jumbotron h2 {
-	font-size: 2.5em;
-	text-align: center;
-	color: #F38630;
-	font-weight: bold;
-	/*font-family: Courier,serif;*/
-}
-
 
