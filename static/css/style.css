@@ -1,7 +1,7 @@
 /*colors from http://www.colourlovers.com/palette/92095/Giant_Goldfish
 #E0E4CC greenish-cream
 #1d6991 dark teal
-#69D2E7 med teal
+#69D2E7 medium teal
 #A7DBD8 light teal
 #F38630 orange
 #FA6900 redder orange
@@ -24,7 +24,8 @@ a:link {
 	color: #1d6991;
 }
 a:visited {
-	color: #69D2E7;
+	/*gray-ish teal obtained by averaging dark teal and medium teal*/
+	color: #7887af;
 }
 
 h1, h2, h3, h4 {
