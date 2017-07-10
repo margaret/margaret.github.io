@@ -26,6 +26,10 @@ def projects():
 def makeup():
     return render_template('makeup.html')
 
+@app.route("/sneks/")
+def sneks():
+    return render_template('snek_stickers.html')
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
