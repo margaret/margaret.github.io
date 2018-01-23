@@ -35,7 +35,7 @@ When you're done working, use the command `deactivate` to exit the virtualenv.
 
 4. Move the rendered pages to the top level of the repository so they will be displayed.
 
-`cp -r build .`
+`cp -r build/ .`
 
 5. Push your changes to the templates _and_ the rendered files to your branch.
 
