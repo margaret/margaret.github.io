@@ -5,6 +5,8 @@ Visit it at :arrow_right: http://margaretsy.com
 
 ## Development
 
+AKA notes to future self.
+
 0. Install requirements
 
 I made this a long time ago, so it uses python 2.7.
@@ -33,7 +35,7 @@ When you're done working, use the command `deactivate` to exit the virtualenv.
 
 4. Move the rendered pages to the top level of the repository so they will be displayed.
 
-`cp -r build .`
+`cp -r build/ .`
 
 5. Push your changes to the templates _and_ the rendered files to your branch.
 
@@ -96,7 +98,7 @@ There's a confusing bit at the end where they give you conflicting info about de
 
 ## Is this original?
 
-Tbh I can't reven remember anymore, but I think I cribbed some of this off of an ancient version of (Ronald's)[https://github.com/rskwan/]'s personal website? It all seems like standard usage of the Flask ecosystem though.
+Tbh I can't reven remember anymore, but I think I cribbed some of this off of an ancient version of [Ronald's](https://github.com/rskwan/)'s personal website? It all seems like standard usage of the Flask ecosystem though.
 
 ## This seems a bit overengineered.
 
