@@ -1,7 +1,7 @@
 personal website
 ================
 
-Visit it at :arrow_right: http://margaretsy.com
+Visit it at :arrow_right: https://margaretsy.com
 
 ## Development
 
