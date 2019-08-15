@@ -36,6 +36,10 @@ def projects():
 def sneks():
     return render_template('snek_stickers.html')
 
+@app.route("/circles/")
+def circles():
+    return render_template('circles.html')
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
