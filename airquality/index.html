@@ -3,10 +3,21 @@ charset="utf-8"><meta
 name="viewport" content="width=device-width, initial-scale=1">
 <title>Air Quality Berkeley</title>
 <link rel="stylesheet" type="text/css" media="screen" href=style.css>
-</head><body>
+</head>
+<body>
+    
     <h1>Air Quality Now</h1>
-    <p>Refresh the page to get the latest one.</p>
-    <img class="simple-img" src="https://files.airnowtech.org/airnow/today/cur_aqi_sanfrancisco_ca.jpg">    <h1>Air Quality Forecast</h1>
-    <img class="simple-img" src="https://files.airnowtech.org/airnow/today/anim_aqi_sanfrancisco_ca.gif">   <h1>SF Chronicle</h1>
-     <iframe width=1000px height=1000px src="https://www.sfchronicle.com/projects/california-fire-map/air-quality/" title="SF Chronicle Air Quality Map"></iframe> 
+    <p>cfpub.epa.gov</p>
+    <!-- <img class="simple-img" src="https://files.airnowtech.org/airnow/today/cur_aqi_sanfrancisco_ca.jpg"> -->
+    <iframe id="airnow" width=1000px height=1000px src="https://cfpub.epa.gov/airnow/index.cfm?action=airnow.local_city&cityid=315"></iframe>
+    
+    <h1>Air Quality Forecast</h1>
+    <img class="simple-img" src="https://files.airnowtech.org/airnow/today/anim_aqi_sanfrancisco_ca.gif">
+
+    <h1>AQICN</h1>
+    <iframe id="aqicn" width=800px height=1000px src="https://aqicn.org/city/california/alameda/berkeley-aquatic-park/"></iframe>
+
+    <h1>SF Chronicle</h1>
+     <iframe id="sf-chronicle" width=1000px height=1000px src="https://www.sfchronicle.com/projects/california-fire-map/air-quality/" title="SF Chronicle Air Quality Map"></iframe> 
+
 </body>
