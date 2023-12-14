@@ -8,7 +8,7 @@
 */
 
 body {
-	/*this is from bettermotherfuckingwebsite*/
+	/* from bettermotherfuckingwebsite */
 	margin:40px auto;
 	max-width:650px;
 	line-height:1.6;
@@ -24,14 +24,14 @@ a:link {
 	color: #1d6991;
 }
 a:visited {
-	/*gray-ish teal obtained by averaging dark teal and medium teal*/
+	/* gray-ish teal obtained by averaging dark teal and medium teal */
 	color: #7887af;
 }
 
 h1, h2, h3, h4 {
 	font-family: Courier,serif;
 	color:#1d6991;
-	/*from bettermotherfuckingwebsite*/
+	/* from bettermotherfuckingwebsite */
 	line-height: 1.2;
 }
 
@@ -70,83 +70,4 @@ iframe, object, embed {
 	color:#FA6900;
 }
 
-.circle-select ul {
-	padding-left: 0;
-}
-
-.button-circle ul {
-	padding: 0px;
-	float: both;
-	list-style-type: none;
-	display: inline-block;
-	text-align: left;
-	margin-left: 0px;
-	padding-left: 0px;
-}
-
-
-.circle-btn li {
-	display: inline-block;
-	text-align: center;
-	padding: 0px;
-
-}
-
-.circle-btn-play li {
-	display: inline-block;
-	text-align: center;
-}
-
-.circle-btn, .circle-btn-play {
-	background-color: #69D2E7;
-	display: inline-block;
-	width: 100px;
-	height: 100px;
-	margin: 10px;
-	padding-left: 0px;
-	padding-top: 20px;
-	border-radius: 100%;
-	text-align: center;
-	float: both;
-	font-size: 2.5em;
-	color: white;
-	vertical-align: top;
-}
-
-.circle-btn h3, .circle-btn-play h3 {
-	font-size: 0.4em;
-	font-family: Courier,serif;
-}
-
-.circle-btn a, .circle-btn-play a {
-	text-decoration: none;
-	color: white;
-}
-
-.circle-btn p, .circle-btn-play p {
-	padding-top: 40px;
-	font-size: 0.5em; 
-	color: gray;
-	font-family: Courier,serif;
-}
-
-.circle-btn:hover, .circle-btn-play:hover {
-	background-color: #1d6991;
-}
-
-.circle-btn.active-circle:hover, .circle-btn-play.active-circle:hover {
-	background-color: #1d6991;
-}
-
-.circle-btn.active-circle, .circle-btn-play.active-circle {
-	background-color: #F38630;
-}
-
-.article {
-	display: none;
-}
-
-.article.active {
-	display: inline;
-}
 
