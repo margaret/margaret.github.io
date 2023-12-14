@@ -39,6 +39,11 @@ h1 {
 	text-align: center;
 }
 
+.link-header h3 {
+	text-decoration: none;
+	text-align: center;
+}
+
 img {
     display: block;
     margin: 0 auto;
