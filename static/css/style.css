@@ -5,6 +5,10 @@
 #A7DBD8 light teal
 #F38630 orange
 #FA6900 redder orange
+
+from elsewhere
+#8379CD blurple
+#D8DDB8 more saturated light green
 */
 
 body {
@@ -16,8 +20,8 @@ body {
 	padding:0 10px;
 	color:#444;
 	/*this is custom*/
-	background-color: #E0E4CC;
-	font-family: Helvetica, sans-serif;
+	background-color: #D8DDB8;
+	font-family: "IBM Plex Sans", Helvetica, sans-serif;
 }
 
 a:link {
@@ -29,29 +33,26 @@ a:visited {
 }
 
 h1, h2, h3, h4 {
-	font-family: Courier,serif;
-	color:#1d6991;
-	/* from bettermotherfuckingwebsite */
+	font-family: "IBM Plex Mono", Courier, serif;
+	color: #8379CD;
 	line-height: 1.2;
-}
-
-h1 {
 	text-align: center;
 }
 
-.link-header h3 {
+.block {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.link-header a {
 	text-decoration: none;
-	text-align: center;
+	color:#1d6991;
 }
 
 img {
     display: block;
     margin: 0 auto;
-    max-width: 650px;
-}
-
-iframe, object, embed {
-        max-width: 100%;
+    width: 350px;
 }
 
 .round-img img {
@@ -62,17 +63,5 @@ iframe, object, embed {
 	text-align: center
 }
 
-.navlinks {
-	/*Match body*/
-	margin:40px auto;
-	max-width:650px;
-	padding:0 10px;
-	text-align: center;
-	font-family: Courier,serif;
-}
-.navlinks a {
-	text-decoration: none;
-	color:#FA6900;
-}
 
 
